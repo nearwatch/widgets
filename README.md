@@ -16,6 +16,8 @@ $ npm install
 ```
 $ node index.js
 ```
+### How to deploy contract
+https://examples.near.org/NFT
 
 ### How to get a widget
 To receive a widget send 1 NEAR from your account to the addresses:
