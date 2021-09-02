@@ -1,0 +1,10 @@
+const dotenv = require('dotenv').config()
+const polka  = require('polka')
+const charts = require('./charts')
+const stat   = require('./stat')
+const pays   = require('./pays')
+const server = polka()
+
+server.get('/',charts.startPage)
+server.get('/charts/:id',charts.widget)
+server.listen(5000, err => console.log(err?err:'near.watch widgets server running...'))
