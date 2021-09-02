@@ -1,5 +1,5 @@
 ## Introduction
-Near NFT dynamic widgets gives you helpful information in your Near wallet
+Near NFT dynamic Widgets provide you with useful information in your Near wallet
 
 https://near.watch
 
